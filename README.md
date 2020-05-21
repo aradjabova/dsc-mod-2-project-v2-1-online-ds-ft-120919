@@ -26,7 +26,7 @@ The description of the column names can be found in the column_names.md file in 
 
 # Scrub/Overview
 
-![map_price.png](attachment:map_price.png)
+![map_price.png](Images/map_price.png)
 
 This is a map overview of the houses sold in Kings County Seattle, WA.
 * Some places in Kings County are sold for higher
@@ -37,7 +37,7 @@ What/Is there realtionships?
 
 ## Overview
 
-![Screen%20Shot%202020-02-16%20at%204.57.33%20PM.png](attachment:Screen%20Shot%202020-02-16%20at%204.57.33%20PM.png)
+![Screen%20Shot%202020-02-16%20at%204.57.33%20PM.png](Images/Screen%20Shot%202020-02-16%20at%204.57.33%20PM.png)
 
 * There are about 21 different columns in the dataset
 * There are about 21,597 entries in the data
@@ -46,7 +46,7 @@ What/Is there realtionships?
 
                         Each Column Scatter Plotted Against Eachother
 
-![download.png](attachment:download.png)
+![download.png](Images/download.png)
 
 Shows all the columns plotted against eachother.
 * There are some categorical columns in the data
@@ -56,7 +56,7 @@ Shows all the columns plotted against eachother.
 * Some columns have relationships with other columns (good to look out for multicolinearity)
 
 
-![download%20%281%29.png](attachment:download%20%281%29.png)
+![download%20%281%29.png](Images/download%20%281%29.png)
 
 A correlation map shows the correlation between each columns against each other:
 * price is very correlated to:
@@ -70,7 +70,7 @@ A correlation map shows the correlation between each columns against each other:
 
 ## Missing Values
 
-![missing_bar.png](attachment:missing_bar.png)
+![missing_bar.png](Images/missing_bar.png)
 
 While looking into the data we can see that we have missing data:
 * view
@@ -82,7 +82,7 @@ How to deal with:
 
 ### Duplicates
 
-![Duplicates.png](attachment:Duplicates.png)
+![Duplicates.png](Images/Duplicates.png)
 
 When cleaning data a key thing to consider is duplicate data:
 * using a unique feature (column)
@@ -91,7 +91,7 @@ When cleaning data a key thing to consider is duplicate data:
 
 ### Place Holders
 
-![Placeholders.png](attachment:Placeholders.png)
+![Placeholders.png](Images/Placeholders.png)
 
 After printing all the unique values of each of the columns:
 * Sqft_basement have '?' values
@@ -100,31 +100,31 @@ After printing all the unique values of each of the columns:
 
 ## Outliers
 
-![price_original.png](attachment:price_original.png)
+![price_original.png](Images/price_original.png)
 
-![price_transformed.png](attachment:price_transformed.png)
+![price_transformed.png](Images/price_transformed.png)
 
-![price_orig_box.png](attachment:price_orig_box.png)
+![price_orig_box.png](Images/price_orig_box.png)
 
-![price_trans_box.png](attachment:price_trans_box.png)
+![price_trans_box.png](Images/price_trans_box.png)
 
-![orig_cor_price_sqftliving.png](attachment:orig_cor_price_sqftliving.png)
+![orig_cor_price_sqftliving.png](Images/orig_cor_price_sqftliving.png)
 
-![trans_cor_price_sqftliving.png](attachment:trans_cor_price_sqftliving.png)
+![trans_cor_price_sqftliving.png](Images/trans_cor_price_sqftliving.png)
 
-![grade_orig_box.png](attachment:grade_orig_box.png)
+![grade_orig_box.png](Images/grade_orig_box.png)
 
-![grade_tran_box.png](attachment:grade_tran_box.png)
+![grade_tran_box.png](Images/grade_tran_box.png)
 
-![orig_cor_price_sqftabove.png](attachment:orig_cor_price_sqftabove.png)
+![orig_cor_price_sqftabove.png](Images/orig_cor_price_sqftabove.png)
 
-![trans_cor_price_sqftabove.png](attachment:trans_cor_price_sqftabove.png)
+![trans_cor_price_sqftabove.png](Images/trans_cor_price_sqftabove.png)
 
 # For Seller Question 1: How well can the zipcode, number of floors and month to sell predict the price?
 
 ## Explore Patterns/ Trends
 
-![Q1%20zipcodes.png](attachment:Q1%20zipcodes.png)
+![Q1%20zipcodes.png](Images/Q1%20zipcodes.png)
 
 Exploring Zipcodes against price:
 * some zipcodes have higher average priced homes:
@@ -134,13 +134,13 @@ Exploring Zipcodes against price:
 
 There is definetly a relationship between zipcodes and prices
 
-![Q1%20months.png](attachment:Q1%20months.png)
+![Q1%20months.png](Images/Q1%20months.png)
 
 Exploring months against prices:
 * Some months have a **slight** better average selling amount
 * There is not a strong correlation but there is a slight one
 
-![Q1%20floors.png](attachment:Q1%20floors.png)
+![Q1%20floors.png](Images/Q1%20floors.png)
 
 Exploring the realtionship betweeen floors and prices:
    * Having a higher number of floors does increase the number the amount the home is sold for to an extent
@@ -150,11 +150,11 @@ Exploring the realtionship betweeen floors and prices:
 
 ### Actual Model
 
-![Screen%20Shot%202020-02-17%20at%2011.41.07%20AM.png](attachment:Screen%20Shot%202020-02-17%20at%2011.41.07%20AM.png)
-![Screen%20Shot%202020-02-17%20at%2011.41.26%20AM.png](attachment:Screen%20Shot%202020-02-17%20at%2011.41.26%20AM.png)
-![Screen%20Shot%202020-02-17%20at%2011.41.39%20AM.png](attachment:Screen%20Shot%202020-02-17%20at%2011.41.39%20AM.png)
-![Screen%20Shot%202020-02-17%20at%2011.42.00%20AM.png](attachment:Screen%20Shot%202020-02-17%20at%2011.42.00%20AM.png)
-![Screen%20Shot%202020-02-17%20at%2011.42.13%20AM.png](attachment:Screen%20Shot%202020-02-17%20at%2011.42.13%20AM.png)
+![Screen%20Shot%202020-02-17%20at%2011.41.07%20AM.png](Images/Screen%20Shot%202020-02-17%20at%2011.41.07%20AM.png)
+![Screen%20Shot%202020-02-17%20at%2011.41.26%20AM.png](Images/Screen%20Shot%202020-02-17%20at%2011.41.26%20AM.png)
+![Screen%20Shot%202020-02-17%20at%2011.41.39%20AM.png](Images/Screen%20Shot%202020-02-17%20at%2011.41.39%20AM.png)
+![Screen%20Shot%202020-02-17%20at%2011.42.00%20AM.png](Images/Screen%20Shot%202020-02-17%20at%2011.42.00%20AM.png)
+![Screen%20Shot%202020-02-17%20at%2011.42.13%20AM.png](Images/Screen%20Shot%202020-02-17%20at%2011.42.13%20AM.png)
 
 
 
@@ -165,15 +165,15 @@ Exploring the realtionship betweeen floors and prices:
 
                                 TESTING MULTICOLINEARITY
 
-![q1%20nomulti%20floorzip.png](attachment:q1%20nomulti%20floorzip.png)
+![q1%20nomulti%20floorzip.png](Images/q1%20nomulti%20floorzip.png)
 
 Zipcodes and floors do not have a realtionship; meaning that knowing the zipcode cannot predict the number of floors a house has
 
-![q1%20nomulti%20monzip.png](attachment:q1%20nomulti%20monzip.png)
+![q1%20nomulti%20monzip.png](Images/q1%20nomulti%20monzip.png)
 
 Zipcodes and months have no relationship; meaning that the month cannot predict which zipcode the house is from; vice versa
 
-![q1%20nomulti%20floormon.png](attachment:q1%20nomulti%20floormon.png)
+![q1%20nomulti%20floormon.png](Images/q1%20nomulti%20floormon.png)
 
 Number of floors and months have no relationship; meaning that the number of floors cannot predict which zipcode the house is from; vice versa
 
@@ -209,11 +209,11 @@ Residuals:
 * Condition Numbers:
     * substantially lower; can indicated that there is little to no multicolinearity in the model
 
-![Q1%20meme%20sell%20house.jpg](attachment:Q1%20meme%20sell%20house.jpg)
+![Q1%20meme%20sell%20house.jpg](Images/Q1%20meme%20sell%20house.jpg)
 
                                         Residual Distribution
 
-![Q1%20Distribution.png](attachment:Q1%20Distribution.png)
+![Q1%20Distribution.png](Images/Q1%20Distribution.png)
 
 The residual distribution looks pretty normal which meets one of the assumptions of multilinear regression.
 
@@ -222,7 +222,7 @@ This means that the residuals the are around our linear regression model are nor
 
                                Ploting the Residuals of the Regression 
 
-![Q1%20Residuals.png](attachment:Q1%20Residuals.png)
+![Q1%20Residuals.png](Images/Q1%20Residuals.png)
 
 **Homoscedasticity is the third assumption necessary when creating a linear regression model, meaning that the residuals are linear and not cone shaped**
 
@@ -232,7 +232,7 @@ The residuals plotted shows that the residuals are homoscedastic. They are linea
 
                                        Train Test Split
 
-![Q1%20train%20test.png](attachment:Q1%20train%20test.png)
+![Q1%20train%20test.png](Images/Q1%20train%20test.png)
 
 After double checking the testing and training errors of the model the model is not overfitted
 
@@ -241,7 +241,7 @@ After double checking the testing and training errors of the model the model is 
 
 ## Explore
 
-![Q2%20bedrooms%20price.png](attachment:Q2%20bedrooms%20price.png)
+![Q2%20bedrooms%20price.png](Images/Q2%20bedrooms%20price.png)
 
 Exploring number of bedrooms against price:
 * some number ofbedrooms have higher average priced homes:
@@ -251,7 +251,7 @@ Exploring number of bedrooms against price:
 
 There is definetly a relationship between number of bedrooms and prices
 
-![Q2%20grade%20price.png](attachment:Q2%20grade%20price.png)
+![Q2%20grade%20price.png](Images/Q2%20grade%20price.png)
 
 Exploring condition against price:
 * some number of bedrooms have higher average priced homes:
@@ -265,14 +265,14 @@ There is definetly a relationship between condition and prices
 
 ### Actual Model
 
-![Q2%20Model.png](attachment:Q2%20Model.png)
+![Q2%20Model.png](Images/Q2%20Model.png)
 
 ### Explaination
 
 
                                 TESTING MULTICOLINEARITY
 
-![Q2%20no%20multi%20grade%20bed.png](attachment:Q2%20no%20multi%20grade%20bed.png)
+![Q2%20no%20multi%20grade%20bed.png](Images/Q2%20no%20multi%20grade%20bed.png)
 
 Number of bedrooms and condition do not have a realtionship; meaning that knowing the numberof bedrooms cannot predict the grade a house has
 
@@ -300,11 +300,11 @@ Residuals:
 * Condition Numbers: 23.2
     * substantially lower; can indicated that there is little to no multicolinearity in the model
 
-![meme%202.jpg](attachment:meme%202.jpg)
+![meme%202.jpg](Images/meme%202.jpg)
 
                                         Residual Distribution
 
-![Q2%20distribution.png](attachment:Q2%20distribution.png)
+![Q2%20distribution.png](Images/Q2%20distribution.png)
 
 The residual distribution looks pretty normal; is a bit skewed and leaning but semi normal which meets one of the assumptions of multilinear regression.
 
@@ -313,7 +313,7 @@ This means that the residuals the are around our linear regression model are nor
 
                                Ploting the Residuals of the Regression 
 
-![Q2%20residuals.png](attachment:Q2%20residuals.png)
+![Q2%20residuals.png](Images/Q2%20residuals.png)
 
 **Homoscedasticity is the third assumption necessary when creating a linear regression model, meaning that the residuals are linear and not cone shaped**
 
@@ -323,7 +323,7 @@ The residuals plotted shows that the residuals are homoscedastic. They are linea
 
                                     Train Test Split
 
-![Q2%20Train%20Test.png](attachment:Q2%20Train%20Test.png)
+![Q2%20Train%20Test.png](Images/Q2%20Train%20Test.png)
 
 After double checking the testing and training errors of the model the model is not overfitted or underfitted
 
@@ -332,7 +332,7 @@ After double checking the testing and training errors of the model the model is 
 
 ## Explore
 
-![Q3%20sqft%20above%20price.png](attachment:Q3%20sqft%20above%20price.png)
+![Q3%20sqft%20above%20price.png](Images/Q3%20sqft%20above%20price.png)
 
 Exploring square foot above against price:
 * As the sqare foot above goes up the prie of the houses goes up
@@ -340,7 +340,7 @@ Exploring square foot above against price:
 
 There is definetly a relationship between sqare foot above and prices
 
-![Q3%20sqft%20base%20price.png](attachment:Q3%20sqft%20base%20price.png)
+![Q3%20sqft%20base%20price.png](Images/Q3%20sqft%20base%20price.png)
 
 Exploring square foot basement against price:
 * As the sqare foot basement goes up the prie of the houses goes up
@@ -353,11 +353,11 @@ There is definetly a relationship between sqare foot basement and prices
 ### Actual Model
 
 
-![Q3%20model.png](attachment:Q3%20model.png)
+![Q3%20model.png](Images/Q3%20model.png)
 
 ### Explaination
 
-![Q3%20no%20multi%20above%20base.png](attachment:Q3%20no%20multi%20above%20base.png)
+![Q3%20no%20multi%20above%20base.png](Images/Q3%20no%20multi%20above%20base.png)
 
 Square foot basement and sqare foot above do not have a realtionship; meaning that knowing the sqare foot basement cannot predict the sqarefoot above of a house has
 
@@ -384,11 +384,11 @@ Residuals:
 * Condition Numbers: 4.41
     * substantially lower; can indicated that there is little to no multicolinearity in the model
 
-![meme3.jpg](attachment:meme3.jpg)
+![meme3.jpg](Images/meme3.jpg)
 
                                         Residual Distribution
 
-![Q3%20distribution.png](attachment:Q3%20distribution.png)
+![Q3%20distribution.png](Images/Q3%20distribution.png)
 
 The residual distribution looks pretty normal; is a bit weird at the top but semi normal which meets one of the assumptions of multilinear regression.
 
@@ -397,7 +397,7 @@ This means that the residuals the are around our linear regression model are nor
 
                                Ploting the Residuals of the Regression 
 
-![Q3%20residuals.png](attachment:Q3%20residuals.png)
+![Q3%20residuals.png](Images/Q3%20residuals.png)
 
 **Homoscedasticity is the third assumption necessary when creating a linear regression model, meaning that the residuals are linear and not cone shaped**
 
@@ -405,11 +405,11 @@ This means that the residuals the are around our linear regression model are nor
 The residuals plotted shows that the residuals are homoscedastic. They are linear and not cone shaped.
 
 
-![Q3%20qqplot.png](attachment:Q3%20qqplot.png)
+![Q3%20qqplot.png](Images/Q3%20qqplot.png)
 
                                     Train Test Split
 
-![Q3%20train%20test.png](attachment:Q3%20train%20test.png)
+![Q3%20train%20test.png](Images/Q3%20train%20test.png)
 
 After double checking the testing and training errors of the model the model is not overfitted or underfitted
 
@@ -417,14 +417,14 @@ After double checking the testing and training errors of the model the model is 
 
 ## Explore
 
-![Q4%20sqft%20above%20price.png](attachment:Q4%20sqft%20above%20price.png)
+![Q4%20sqft%20above%20price.png](Images/Q4%20sqft%20above%20price.png)
 
 Exploring square foot above against price:
 * There is a positive linear relationship between these two features
 
 The higher the square foot above the higher the price
 
-![Q4%20lot%20and%20price.png](attachment:Q4%20lot%20and%20price.png)
+![Q4%20lot%20and%20price.png](Images/Q4%20lot%20and%20price.png)
 
 Exploring square foot lot against price:
 * There is a positive linear relationship between these two features
@@ -435,12 +435,12 @@ The higher the square foot lot the higher the price
 
 ### Actual model
 
-![Q4%20Model.png](attachment:Q4%20Model.png)
+![Q4%20Model.png](Images/Q4%20Model.png)
 
 ### Explaination
 
 
-![Q4%20nomulti%20.png](attachment:Q4%20nomulti%20.png)
+![Q4%20nomulti%20.png](Images/Q4%20nomulti%20.png)
 
 Square foot lot and sqare foot above do not have a realtionship; meaning that knowing the sqare foot lot cannot predict the sqarefoot above of a house has
 
@@ -469,7 +469,7 @@ Residuals:
 
                                         Residual Distribution
 
-![Q4%20distributuion.png](attachment:Q4%20distributuion.png)
+![Q4%20distributuion.png](Images/Q4%20distributuion.png)
 
 The residual distribution looks pretty normal; is a bit weird at the top but semi normal which meets one of the assumptions of multilinear regression.
 
@@ -478,7 +478,7 @@ This means that the residuals the are around our linear regression model are nor
 
                                Ploting the Residuals of the Regression 
 
-![Q4%20residuals.png](attachment:Q4%20residuals.png)
+![Q4%20residuals.png](Images/Q4%20residuals.png)
 
 **Homoscedasticity is the third assumption necessary when creating a linear regression model, meaning that the residuals are linear and not cone shaped**
 
@@ -488,7 +488,7 @@ The residuals plotted shows that the residuals are homoscedastic. They are linea
 
                                     Train Test Split
 
-![Q4%20trai%20test.png](attachment:Q4%20trai%20test.png)
+![Q4%20trai%20test.png](Images/Q4%20trai%20test.png)
 
 After double checking the testing and training errors of the model the model is not overfitted or underfitted
 
@@ -496,7 +496,7 @@ After double checking the testing and training errors of the model the model is 
 
 ## Explore
 
-![Q5%20condition%20price.png](attachment:Q5%20condition%20price.png)
+![Q5%20condition%20price.png](Images/Q5%20condition%20price.png)
 
 Exploring Condition against price:
 * some conditions have higher average priced homes:
@@ -506,13 +506,13 @@ Exploring Condition against price:
 
 There is definetly a relationship between condition and prices
 
-![Q5%20month%20price.png](attachment:Q5%20month%20price.png)
+![Q5%20month%20price.png](Images/Q5%20month%20price.png)
 
 Exploring months against prices:
 * Some months have a **slight** better average selling amount
 * There is not a strong correlation but there is a slight one
 
-![Q5%20yr%20price.png](attachment:Q5%20yr%20price.png)
+![Q5%20yr%20price.png](Images/Q5%20yr%20price.png)
 
 Exploring year built against prices:
 * Some years have a **slight** better average selling amount
@@ -522,21 +522,21 @@ Exploring year built against prices:
 
 ### Actual Model
 
-![Q5%20model%201.png](attachment:Q5%20model%201.png)
-![Q5%20model%202.png](attachment:Q5%20model%202.png)
-![Q5%20model%203.png](attachment:Q5%20model%203.png)
+![Q5%20model%201.png](Images/Q5%20model%201.png)
+![Q5%20model%202.png](Images/Q5%20model%202.png)
+![Q5%20model%203.png](Images/Q5%20model%203.png)
 
 ### Explaination
 
-![Q5%20no%20multi1.png](attachment:Q5%20no%20multi1.png)
+![Q5%20no%20multi1.png](Images/Q5%20no%20multi1.png)
 
 Months and Condition do not have a realtionship; meaning that knowing the months cannot predict the condition a house has
 
-![Q5%20no%20multi%202.png](attachment:Q5%20no%20multi%202.png)
+![Q5%20no%20multi%202.png](Images/Q5%20no%20multi%202.png)
 
 Year built and Condition do not have a realtionship; meaning that knowing the year built cannot predict the condition a house has
 
-![Q5%20no%20multico3.png](attachment:Q5%20no%20multico3.png)
+![Q5%20no%20multico3.png](Images/Q5%20no%20multico3.png)
 
 Months and year built do not have a realtionship; meaning that knowing the months cannot predict the year built of a house.
 
@@ -568,11 +568,11 @@ Residuals:
 * Condition Numbers: 93
     * substantially lower; can indicated that there is little to no multicolinearity in the model
 
-![meme4.jpg](attachment:meme4.jpg)
+![meme4.jpg](Images/meme4.jpg)
 
                                         Residual Distribution
 
-![Q5%20distribution.png](attachment:Q5%20distribution.png)
+![Q5%20distribution.png](Images/Q5%20distribution.png)
 
 The residual distribution looks pretty normal which meets one of the assumptions of multilinear regression.
 
@@ -581,7 +581,7 @@ This means that the residuals the are around our linear regression model are nor
 
                                Ploting the Residuals of the Regression 
 
-![Q5%20residual.png](attachment:Q5%20residual.png)
+![Q5%20residual.png](Images/Q5%20residual.png)
 
 **Homoscedasticity is the third assumption necessary when creating a linear regression model, meaning that the residuals are linear and not cone shaped**
 
@@ -591,7 +591,7 @@ The residuals plotted shows that the residuals are homoscedastic. They are linea
 
                                        Train Test Split
 
-![Q5%20train%20test.png](attachment:Q5%20train%20test.png)
+![Q5%20train%20test.png](Images/Q5%20train%20test.png)
 
 After double checking the testing and training errors of the model the model is not overfitted
 
