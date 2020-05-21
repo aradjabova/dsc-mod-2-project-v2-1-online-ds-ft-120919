@@ -16,7 +16,7 @@ The description of the column names can be found in the column_names.md file in 
 
 # Methodology
 
-![methodology.png](attachment:methodology.png)
+![methodology.png](Images/methodology.png)
 
 * Obtain - get all the data needed to use
 * Scrub - clean the data to from missing data; null values; place holders etc
